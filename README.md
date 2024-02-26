@@ -7,7 +7,7 @@ This React Native project was developed as part of an assignment from a SPN'S HE
 - Tap on image
 
 <a href="https://www.dropbox.com/scl/fi/eik4hhrh1qmtd811dv0wx/spnAssignment.mov?rlkey=hvl5qnkl8jl6zd67insqdqvgi&dl=0">
-  <img src="screenshots/ss1.png" alt="Image" width="150" height="300">
+  <img src="screenshots/ss1.jpg" alt="Image" width="150" height="300">
 </a>
 
 - Or visit link: https://www.dropbox.com/scl/fi/eik4hhrh1qmtd811dv0wx/spnAssignment.mov?rlkey=hvl5qnkl8jl6zd67insqdqvgi&dl=0 
@@ -22,8 +22,8 @@ This React Native project was developed as part of an assignment from a SPN'S HE
 ## Screenshots
 
 <div style={{flex-direction: 'row'}} >
-  <img src="screenshots/ss1.png" alt="Splash Screen" width="200" height="400">
-  <img src="screenshots/ss2.png" alt="Home Screen" width="200" height="400">
+  <img src="screenshots/ss1.jpg" alt="Splash Screen" width="200" height="400">
+  <img src="screenshots/ss2.jpg" alt="Home Screen" width="200" height="400">
 </div
 
 
