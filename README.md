@@ -48,8 +48,4 @@ npm run android
 OR
   
 npm run ios
-  
-## Contributing:
-
-- Contributions are welcome! If you encounter any issues, have suggestions, or want to contribute new features, feel free to open an issue or submit a pull request.
  
