@@ -1,5 +1,9 @@
 package com.spn
+
 import android.os.Bundle
+import android.os.Build
+import android.view.View
+import android.view.WindowManager
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled
@@ -15,6 +19,16 @@ class MainActivity : ReactActivity() {
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(null)
+
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+          window.decorView.systemUiVisibility = (
+                  View.SYSTEM_UI_FLAG_HIDE_NAVIGATION or
+                  View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+          )
+      } else {
+          window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
+      }
+
   }
 
   /**
